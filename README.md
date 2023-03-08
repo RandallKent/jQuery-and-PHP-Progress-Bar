@@ -1,3 +1,10 @@
+# Showcase functions to download, extract & list contents of a zip file
+
+![demo](demo.gif)
+
+
+
+Based on: 
 jQuery-and-PHP-Progress-Bar
 ===========================
 
@@ -15,3 +22,4 @@ disable gzipping which can cause the buffers to fail and nothing be echoed to th
 The original code for this progress bar is credited to ______. 
 
 This work is credited to Brock Ellis and Brent Zuch of Sycamore Leaf Solutions.
+

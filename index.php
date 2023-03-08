@@ -72,7 +72,7 @@ require_once("object.php");
         $count = count($files_to_process);
 
         //in records present, set loading text and display bar
-        $po->text = "Processing " . $count . " images.";
+        $po->text = "Processing " . $count . " files.";
         $po->DisplayMeter();
 
         //give the number of units in your loop to the object
