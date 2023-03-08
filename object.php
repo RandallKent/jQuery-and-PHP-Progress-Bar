@@ -20,6 +20,10 @@ var $text;
         print("         <h4></h4> ");
 		print("     </div> ");
 		print(" </div> ");
+		print(" <div class='status'> ");
+		print("     <br> ");
+		print(" </div> ");
+
     }
 
     function Calculate($count){
@@ -39,8 +43,9 @@ var $text;
     function Hide(){
         ?><script>
             setTimeout(function(){
-                $(".meter_container").fadeOut();
-            }, 2000);
+                // $(".meter_container").fadeOut();
+                $(".meter span").css("background-color", "#4a934a");
+            }, 500);
         </script><?php
     }
 
